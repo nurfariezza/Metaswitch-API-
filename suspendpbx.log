@@ -1,0 +1,62 @@
+2020-06-09 13:56:56,114:__main__:ERROR - HTTPSConnectionPool(host='billing.redtone.com', port=443): Max retries exceeded with url: /metaswitchapi1/api/pbx/resume/01548407000 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000170C3598208>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x00000170C3598208>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Program Files\Python36\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='billing.redtone.com', port=443): Max retries exceeded with url: /metaswitchapi1/api/pbx/resume/01548407000 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000170C3598208>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\suspendpbx.py", line 22, in suspendpbx
+    k = requests.put(u, verify=False)
+  File "C:\Program Files\Python36\lib\site-packages\requests\api.py", line 126, in put
+    return request('put', url, data=data, **kwargs)
+  File "C:\Program Files\Python36\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python36\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python36\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python36\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='billing.redtone.com', port=443): Max retries exceeded with url: /metaswitchapi1/api/pbx/resume/01548407000 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000170C3598208>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+2020-12-28 12:01:47,633:__main__:ERROR - ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: The semaphore timeout period has expired.\r\n (121) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (121)')
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\suspendpbx.py", line 59, in job
+    rows = db.cur.execute(q).fetchall()
+pyodbc.OperationalError: ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: The semaphore timeout period has expired.\r\n (121) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (121)')
+2020-12-28 12:23:08,021:__main__:ERROR - ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (10054)')
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\suspendpbx.py", line 59, in job
+    rows = db.cur.execute(q).fetchall()
+pyodbc.OperationalError: ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (10054)')

@@ -1,0 +1,27 @@
+2019-08-29 18:39:40,047:__main__:ERROR - ('08001', '[08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][SQL Server Native Client 10.0]Login timeout expired (0); [08001] [Microsoft][SQL Server Native Client 10.0]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+Traceback (most recent call last):
+  File "chgpwdconfsipbinding.py", line 38, in job
+    db = initdb()
+  File "E:\apps\metasubs_py\dbhelper.py", line 5, in initdb
+    db.connect()
+  File "E:\apps\metasubs_py\dbhelper.py", line 16, in connect
+    self.con = pyodbc.connect(self.constr, autocommit=autocommit)
+pyodbc.OperationalError: ('08001', '[08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][SQL Server Native Client 10.0]Login timeout expired (0); [08001] [Microsoft][SQL Server Native Client 10.0]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+2019-08-29 18:41:51,869:__main__:ERROR - ('08001', '[08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][SQL Server Native Client 10.0]Login timeout expired (0); [08001] [Microsoft][SQL Server Native Client 10.0]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+Traceback (most recent call last):
+  File "chgpwdconfsipbinding.py", line 38, in job
+    db = initdb()
+  File "E:\apps\metasubs_py\dbhelper.py", line 5, in initdb
+    db.connect()
+  File "E:\apps\metasubs_py\dbhelper.py", line 16, in connect
+    self.con = pyodbc.connect(self.constr, autocommit=autocommit)
+pyodbc.OperationalError: ('08001', '[08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][SQL Server Native Client 10.0]Login timeout expired (0); [08001] [Microsoft][SQL Server Native Client 10.0]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+2019-08-29 18:43:50,669:__main__:ERROR - ('08001', '[08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][SQL Server Native Client 10.0]Login timeout expired (0); [08001] [Microsoft][SQL Server Native Client 10.0]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+Traceback (most recent call last):
+  File "chgpwdconfsipbinding.py", line 38, in job
+    db = initdb()
+  File "E:\apps\metasubs_py\dbhelper.py", line 5, in initdb
+    db.connect()
+  File "E:\apps\metasubs_py\dbhelper.py", line 16, in connect
+    self.con = pyodbc.connect(self.constr, autocommit=autocommit)
+pyodbc.OperationalError: ('08001', '[08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][SQL Server Native Client 10.0]Login timeout expired (0); [08001] [Microsoft][SQL Server Native Client 10.0]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')

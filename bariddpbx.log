@@ -1,0 +1,90 @@
+2020-12-23 09:07:55,490:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 39, in checking_data_match
+    h= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 09:19:40,008:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 39, in checking_data_match
+    h= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 09:19:43,025:__main__:ERROR - name 'false' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 92, in job
+    if h == false:
+NameError: name 'false' is not defined
+2020-12-23 09:22:20,645:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 39, in checking_data_match
+    h= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 09:23:25,905:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 39, in checking_data_match
+    h= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 09:24:31,109:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 39, in checking_data_match
+    h= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 10:46:19,210:__main__:ERROR - ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (10054)')
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 67, in job
+    db = initdb()
+pyodbc.OperationalError: ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (10054)')
+2020-12-23 11:13:20,967:__main__:ERROR - name 'allow' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 91, in job
+    h= checking_data_match(dn, allow)
+NameError: name 'allow' is not defined
+2020-12-23 11:14:22,076:__main__:ERROR - name 'allow' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 91, in job
+    h= checking_data_match(dn, allow)
+NameError: name 'allow' is not defined
+2020-12-23 11:15:23,117:__main__:ERROR - name 'allow' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 91, in job
+    h= checking_data_match(dn, allow)
+NameError: name 'allow' is not defined
+2020-12-23 11:16:24,139:__main__:ERROR - name 'allow' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 91, in job
+    h= checking_data_match(dn, allow)
+NameError: name 'allow' is not defined
+2020-12-23 11:17:25,245:__main__:ERROR - name 'allow' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 91, in job
+    h= checking_data_match(dn, allow)
+NameError: name 'allow' is not defined
+2020-12-23 11:19:43,129:__main__:ERROR - must be str, not int
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 36, in checking_data_match
+    print('==='+allow)
+TypeError: must be str, not int
+2020-12-23 11:37:13,267:__main__:ERROR - name 'x' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 92, in job
+    print(x)
+NameError: name 'x' is not defined
+2020-12-23 11:38:16,399:__main__:ERROR - name 'x' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 92, in job
+    print(x)
+NameError: name 'x' is not defined
+2020-12-23 11:39:19,532:__main__:ERROR - name 'x' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx_update.py", line 92, in job
+    print(h)
+NameError: name 'x' is not defined
+2020-12-23 12:25:47,739:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx.py", line 40, in checking_data_match
+    x= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 16:13:35,354:__main__:ERROR - ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (10054)')
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddpbx.py", line 68, in job
+    rows = db.cur.execute(q).fetchall()
+pyodbc.OperationalError: ('08S01', '[08S01] [Microsoft][SQL Server Native Client 10.0]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][SQL Server Native Client 10.0]Communication link failure (10054)')

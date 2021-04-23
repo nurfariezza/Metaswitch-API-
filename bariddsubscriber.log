@@ -1,0 +1,36 @@
+2019-10-30 10:10:49,816:__main__:ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "bariddsubscriber.py", line 17, in bariddsubs
+    j = k.json()
+  File "E:\Python36\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "E:\Python36\lib\site-packages\simplejson\__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "E:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "E:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-10-30 10:10:52,074:__main__:ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "bariddsubscriber.py", line 17, in bariddsubs
+    j = k.json()
+  File "E:\Python36\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "E:\Python36\lib\site-packages\simplejson\__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "E:\Python36\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "E:\Python36\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2020-12-23 12:37:30,554:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddsubscriber.py", line 39, in checking_data_match
+    x= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
+2020-12-23 12:37:38,284:__main__:ERROR - 'data'
+Traceback (most recent call last):
+  File "C:\Users\ainur.fadzil\Documents\metasubs_py\bariddsubscriber.py", line 39, in checking_data_match
+    x= j['data']['lineClassCode19Field']['valueField']
+KeyError: 'data'
